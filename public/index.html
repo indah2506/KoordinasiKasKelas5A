@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workbook Kas Bendahara Kelas 5A 2026–2027 | SDS Kasih Ananda</title>
+  
+  <!-- SEO & Meta -->
+  <meta name="description" content="Aplikasi Pengelolaan Kas Bendahara Kelas 5A SDS Kasih Ananda Tahun Ajaran 2026-2027">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets & Icons -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="app-container">
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="app-header">
+      <div class="brand-section">
+        <div class="brand-logo" id="headerBrandLogo">
+          <i class="fa-solid fa-school"></i>
+        </div>
+        <div class="brand-title">
+          <h1 id="appTitleHeader">Workbook Kas Bendahara Kelas 5A <span class="badge-school">SDS Kasih Ananda</span></h1>
+          <p><i class="fa-regular fa-calendar-check"></i> Tahun Ajaran 2026–2027 &bull; Nominal Kas: <strong id="headerNominalKas">Rp 20.000 / siswa / bulan</strong></p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Lock / Role Indicator Badge -->
+        <div id="protectionBadge" class="protection-badge locked" onclick="app.toggleLockModal()" title="Klik untuk mengubah mode proteksi">
+          <i class="fa-solid fa-lock" id="lockIcon"></i>
+          <span id="lockText">Mode Wali Murid (Dikunci)</span>
+        </div>
+
+        <button class="btn btn-secondary" onclick="app.exportToExcel()" title="Ekspor Data ke File Excel (.xlsx)">
+          <i class="fa-solid fa-file-excel" style="color: #16a34a;"></i> Ekspor Excel
+        </button>
+
+        <button class="btn btn-primary" onclick="app.printReport()" title="Cetak Laporan A4">
+          <i class="fa-solid fa-print"></i> Cetak A4
+        </button>
+
+        <button class="btn btn-secondary btn-sm bendahara-only" onclick="app.openSettingsModal()" title="Pengaturan Nama Wali Kelas & Koordinator">
+          <i class="fa-solid fa-gear"></i> Pengaturan
+        </button>
+
+        <button class="btn btn-accent btn-sm" id="btnLoginToggle" onclick="app.openLoginModal()">
+          <i class="fa-solid fa-key"></i> Login Bendahara
+        </button>
+      </div>
+
+    </header>
+
+    <!-- ==================== NAVIGATION TABS ==================== -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="tab-dashboard">
+        <i class="fa-solid fa-chart-pie"></i> 🏠 Dashboard
+      </button>
+      <button class="tab-btn" data-tab="tab-siswa">
+        <i class="fa-solid fa-user-graduate"></i> 👩‍🎓 Data Siswa (<span id="totalStudentBadge">35</span>)
+      </button>
+      <button class="tab-btn" data-tab="tab-pembayaran">
+        <i class="fa-solid fa-money-bill-wave"></i> 💰 Pembayaran Kas
+      </button>
+      <button class="tab-btn" data-tab="tab-pengeluaran">
+        <i class="fa-solid fa-receipt"></i> 💸 Pengeluaran
+      </button>
+      <button class="tab-btn" data-tab="tab-rekap">
+        <i class="fa-solid fa-triangle-exclamation"></i> 📊 Rekap & 🚨 Tunggakan
+      </button>
+      <button class="tab-btn" data-tab="tab-laporan">
+        <i class="fa-solid fa-file-invoice"></i> 🧾 Laporan Cetak
+      </button>
+    </nav>
+
+    <!-- ==================== TAB 1: DASHBOARD ==================== -->
+    <div id="tab-dashboard" class="tab-content active">
+      
+      <!-- STAT CARDS GRID -->
+      <div class="stats-grid">
+        <div class="stat-card card-pemasukan">
+          <div class="stat-header">
+            <span class="stat-title">Total Pemasukan</span>
+            <div class="stat-icon"><i class="fa-solid fa-arrow-down-left"></i></div>
+          </div>
+          <div class="stat-value" id="statTotalPemasukan">Rp 0</div>
+          <div class="stat-desc"><i class="fa-solid fa-circle-check" style="color: #22c55e;"></i> Total Kas Diterima (Rp20rb/siswa)</div>
+        </div>
+
+        <div class="stat-card card-pengeluaran">
+          <div class="stat-header">
+            <span class="stat-title" id="statTitlePengeluaran">Total Pengeluaran</span>
+            <div class="stat-icon"><i class="fa-solid fa-arrow-up-right"></i></div>
+          </div>
+          <div class="stat-value" id="statTotalPengeluaran">Rp 0</div>
+          <div class="stat-desc" id="statDescPengeluaran"><i class="fa-solid fa-receipt"></i> Keperluan & Kegiatan Kelas 5A</div>
+        </div>
+
+        <div class="stat-card card-saldo">
+          <div class="stat-header">
+            <span class="stat-title">Saldo Akhir Kas</span>
+            <div class="stat-icon"><i class="fa-solid fa-wallet"></i></div>
+          </div>
+          <div class="stat-value" id="statSaldoAkhir">Rp 0</div>
+          <div class="stat-desc"><i class="fa-solid fa-shield-halved"></i> Saldo Bersih Tersedia</div>
+        </div>
+
+        <div class="stat-card card-progress">
+          <div class="stat-header">
+            <span class="stat-title">Capaian Pembayaran</span>
+            <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
+          </div>
+          <div class="stat-value" id="statPersentase">0%</div>
+          <div class="stat-desc"><span id="statPaidCount">0</span> dari <span id="statTotalTarget">420</span> transaksi lunas</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="statProgressBar" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHARTS GRID -->
+      <div class="charts-grid">
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3 class="chart-card-title"><i class="fa-solid fa-chart-column" style="color: #16a34a;"></i> Tren Pemasukan & Pengeluaran Bulanan</h3>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartIncomeExpense"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3 class="chart-card-title"><i class="fa-solid fa-chart-pie" style="color: #15803d;"></i> Status Pembayaran Siswa</h3>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartPaymentStatus"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- RINGKASAN PEMBAYARAN BULAN INI -->
+      <div class="content-card">
+        <div class="card-title-row">
+          <h2 class="section-title"><i class="fa-solid fa-clock-rotate-left"></i> Ringkasan Pembayaran Bulan Ini</h2>
+          <button class="btn btn-secondary btn-sm" onclick="app.switchTab('tab-pembayaran')">
+            Lihat Semua Bulan &rarr;
+          </button>
+        </div>
+        <div id="dashboardRecentSummary">
+          <!-- Dynamic Recent Summary -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ==================== TAB 2: DATA SISWA ==================== -->
+    <div id="tab-siswa" class="tab-content">
+      <div class="content-card">
+        <div class="card-title-row">
+          <h2 class="section-title"><i class="fa-solid fa-users"></i> Daftar Siswa Kelas 5A (<span id="countStudentTab">35</span>)</h2>
+          <div class="table-filter-bar">
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="text" id="searchStudentInput" placeholder="Cari nama siswa..." oninput="app.renderStudents()">
+            </div>
+            <button class="btn btn-primary bendahara-only" onclick="app.openAddStudentModal()">
+              <i class="fa-solid fa-plus"></i> Tambah Siswa
+            </button>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="tableStudents">
+            <thead>
+              <tr>
+                <th style="width: 50px;">No</th>
+                <th>Nama Lengkap Siswa</th>
+                <th>No. WhatsApp Orang Tua</th>
+                <th>Status Kas Total</th>
+                <th class="bendahara-only" style="width: 120px; text-align: center;">Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyStudents">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: PEMBAYARAN KAS MATRIX ==================== -->
+    <div id="tab-pembayaran" class="tab-content">
+      <div class="content-card">
+        <div class="card-title-row">
+          <h2 class="section-title"><i class="fa-solid fa-wallet"></i> Matrix Pembayaran Kas Bulanan (T.A 2026–2027)</h2>
+          <div class="table-filter-bar">
+            <span class="badge-info">Nominal: <strong>Rp 20.000 / bulan</strong></span>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="tablePaymentMatrix">
+            <thead id="theadPaymentMatrix">
+              <!-- Rendered dynamically -->
+            </thead>
+            <tbody id="tbodyPaymentMatrix">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: PENGELUARAN ==================== -->
+    <div id="tab-pengeluaran" class="tab-content">
+      <div class="content-card">
+        <div class="card-title-row">
+          <h2 class="section-title"><i class="fa-solid fa-receipt"></i> Catatan Pengeluaran Kas Kelas</h2>
+          <button class="btn btn-primary bendahara-only" onclick="app.openAddExpenseModal()">
+            <i class="fa-solid fa-plus"></i> Catat Pengeluaran Baru
+          </button>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 50px;">No</th>
+                <th>Tanggal</th>
+                <th>Keterangan / Keperluan</th>
+                <th>Kategori</th>
+                <th>Nominal (Rp)</th>
+                <th>Bukti / Nota</th>
+                <th class="bendahara-only" style="width: 100px; text-align: center;">Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyExpenses">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: REKAP & TUNGGAKAN ==================== -->
+    <div id="tab-rekap" class="tab-content">
+      <div class="content-card">
+        <div class="card-title-row">
+          <h2 class="section-title"><i class="fa-solid fa-chart-column"></i> Rekap Per Bulan & Daftar Tunggakan Siswa</h2>
+          <div class="table-filter-bar">
+            <select id="rekapMonthFilter" class="select-filter" onchange="app.renderRekap()">
+              <!-- Dynamic Month Options -->
+            </select>
+          </div>
+        </div>
+        <div id="rekapSummaryContent">
+          <!-- Dynamic Rekap Content -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: LAPORAN CETAK A4 ==================== -->
+    <div id="tab-laporan" class="tab-content">
+      <div class="content-card no-print" style="margin-bottom: 16px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <p><strong><i class="fa-solid fa-print"></i> Pratinjau Cetak Laporan Formal A4:</strong></p>
+          <button class="btn btn-primary" onclick="app.printReport()">
+            <i class="fa-solid fa-print"></i> Cetak Sekarang
+          </button>
+        </div>
+      </div>
+
+      <div class="report-paper" id="printableReportPaper">
+        <div class="report-header">
+          <h2 id="reportSchoolHeader">SDS KASIH ANANDA</h2>
+          <p id="reportTitleHeader">LAPORAN KAS BENDAHARA KELAS 5A</p>
+          <p>Tahun Ajaran 2026–2027 &bull; Dicetak Pada: <span id="reportPrintDate">-</span></p>
+        </div>
+
+        <div id="reportPaperBody">
+          <!-- Dynamic Printable Tables -->
+        </div>
+
+        <div class="signature-row">
+          <div class="signature-box">
+            <p>Mengetahui,<br>Wali Kelas 5A</p>
+            <div class="signature-line" id="reportSignatureWali">Bu Liswati</div>
+          </div>
+          <div class="signature-box">
+            <p>Jakarta, <span id="reportSignDate">-</span><br>Bendahara / Koordinator</p>
+            <div class="signature-line" id="reportSignatureBendahara">Mom Kim</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ==================== MODAL DIALOGS ==================== -->
+  
+  <!-- MODAL 1: LOGIN BENDAHARA -->
+  <div id="modalLogin" class="modal-backdrop">
+    <div class="modal-box" style="max-width: 420px;">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-key"></i> Login Bendahara</h3>
+        <button class="modal-close" onclick="app.closeModal('modalLogin')">&times;</button>
+      </div>
+      <form onsubmit="app.handleLoginSubmit(event)">
+        <div class="form-group">
+          <label for="inputPin">Masukkan PIN Bendahara Kelas</label>
+          <input type="password" id="inputPin" class="form-control" placeholder="Contoh: 5A2026" required autofocus autocomplete="off">
+          <small style="color: #64748b; margin-top: 4px; display: block;">PIN Default: <strong>5A2026</strong></small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalLogin')">Batal</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-unlock"></i> Masuk Mode Bendahara</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL 2: INPUT / EDIT PEMBAYARAN KAS -->
+  <div id="modalPaymentDetail" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalPaymentTitle"><i class="fa-solid fa-money-bill-wave"></i> Detail Pembayaran Kas</h3>
+        <button class="modal-close" onclick="app.closeModal('modalPaymentDetail')">&times;</button>
+      </div>
+      <form onsubmit="app.handlePaymentDetailSubmit(event)">
+        <input type="hidden" id="payStudentId">
+        <input type="hidden" id="payMonthKey">
+
+        <div class="form-group">
+          <label>Nama Siswa & Bulan</label>
+          <div id="payStudentInfo" style="font-weight: 700; color: #166534; font-size: 1.05rem; background: #f0fdf4; padding: 10px 14px; border-radius: 8px; border: 1px solid #bbf7d0;">-</div>
+        </div>
+
+        <div class="form-group">
+          <label for="payAmountInput"><i class="fa-solid fa-coins"></i> Nominal Yang Ditransfer / Dibayar (Rp)</label>
+          <input type="number" id="payAmountInput" class="form-control" placeholder="Contoh: 80000" min="0" step="1000" oninput="app.onPayAmountInput(this.value)">
+          <small id="payAmountHint" style="color: #166534; font-weight: 600; margin-top: 4px; display: block;"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="payStatusSelect">Status Pembayaran Bulan Ini</label>
+          <select id="payStatusSelect" class="form-control select-filter" style="width: 100%;">
+            <option value="true">🟢 LUNAS (Rp 20.000)</option>
+            <option value="false">🔴 BELUM BAYAR</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="payDateInput">Tanggal Bayar</label>
+          <input type="date" id="payDateInput" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="payMethodSelect">Metode Pembayaran</label>
+          <select id="payMethodSelect" class="form-control select-filter" style="width: 100%;">
+            <option value="Transfer Bank / QRIS">Transfer Bank / QRIS</option>
+            <option value="Cash / Tunai">Cash / Tunai</option>
+          </select>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalPaymentDetail')">Batal</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i> Simpan Pembayaran</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL 3: TAMBAH / EDIT SISWA -->
+  <div id="modalStudent" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalStudentTitle"><i class="fa-solid fa-user-plus"></i> Data Siswa</h3>
+        <button class="modal-close" onclick="app.closeModal('modalStudent')">&times;</button>
+      </div>
+      <form onsubmit="app.handleStudentSubmit(event)">
+        <input type="hidden" id="studentEditId">
+        <div class="form-group">
+          <label for="studentNameInput">Nama Lengkap Siswa</label>
+          <input type="text" id="studentNameInput" class="form-control" placeholder="Contoh: Muhammad Al-Fatih" required>
+        </div>
+        <div class="form-group">
+          <label for="studentPhoneInput">No. WhatsApp Orang Tua (Opsional)</label>
+          <input type="text" id="studentPhoneInput" class="form-control" placeholder="Contoh: 081234567890">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalStudent')">Batal</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-save"></i> Simpan Data Siswa</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL 4: CATAT PENGELUARAN BARU -->
+  <div id="modalExpense" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-receipt"></i> Catat Pengeluaran Baru</h3>
+        <button class="modal-close" onclick="app.closeModal('modalExpense')">&times;</button>
+      </div>
+      <form onsubmit="app.handleExpenseSubmit(event)">
+        <div class="form-group">
+          <label for="expTitleInput">Keterangan / Keperluan Pengeluaran</label>
+          <input type="text" id="expTitleInput" class="form-control" placeholder="Contoh: Beli spidol & kertas HVS" required>
+        </div>
+        <div class="form-group">
+          <label for="expAmountInput">Nominal Pengeluaran (Rp)</label>
+          <input type="number" id="expAmountInput" class="form-control" placeholder="Contoh: 45000" min="500" required>
+        </div>
+        <div class="form-group">
+          <label for="expCategorySelect">Kategori Pengeluaran</label>
+          <select id="expCategorySelect" class="form-control select-filter" style="width: 100%;">
+            <option value="Alat Tulis">Alat Tulis & Kelengkapan Kelas</option>
+            <option value="Fotokopi">Fotokopi & Cetak Soal</option>
+            <option value="Acara Kelas">Acara & Ulang Tahun / Lomba</option>
+            <option value="Kebersihan">Kebersihan & Kesehatan</option>
+            <option value="Lain-lain">Lain-lain</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="expDateInput">Tanggal Pengeluaran</label>
+          <input type="date" id="expDateInput" class="form-control" required>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalExpense')">Batal</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-save"></i> Simpan Pengeluaran</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL 5: PENGATURAN KELAS -->
+  <div id="modalSettings" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-gear"></i> Pengaturan Kelas & Pengurus</h3>
+        <button class="modal-close" onclick="app.closeModal('modalSettings')">&times;</button>
+      </div>
+      <form onsubmit="app.handleSettingsSubmit(event)">
+        <div class="form-group">
+          <label for="setWaliKelas">Nama Wali Kelas</label>
+          <input type="text" id="setWaliKelas" class="form-control" placeholder="Contoh: Bu Liswati">
+        </div>
+
+        <div class="form-group">
+          <label for="setKoordinator">Nama Koordinator / Bendahara Kelas</label>
+          <input type="text" id="setKoordinator" class="form-control" placeholder="Contoh: Mom Kim">
+        </div>
+
+        <div class="form-group">
+          <label for="setNamaSekolah">Nama Sekolah</label>
+          <input type="text" id="setNamaSekolah" class="form-control" placeholder="Contoh: SDS Kasih Ananda">
+        </div>
+
+        <div class="form-group">
+          <label for="setNamaKelas">Nama Kelas</label>
+          <input type="text" id="setNamaKelas" class="form-control" placeholder="Contoh: Kelas 5A">
+        </div>
+
+        <div class="form-group">
+          <label for="setNominalKas">Nominal Kas Per Bulan (Rp)</label>
+          <input type="number" id="setNominalKas" class="form-control" placeholder="20000" min="1000">
+        </div>
+
+        <div class="form-group">
+          <label for="setJudulPengeluaran">Judul Card Pengeluaran (Dashboard)</label>
+          <input type="text" id="setJudulPengeluaran" class="form-control" placeholder="Contoh: Total Pengeluaran">
+        </div>
+
+        <div class="form-group">
+          <label for="setDescPengeluaran">Keterangan / Deskripsi Pengeluaran</label>
+          <input type="text" id="setDescPengeluaran" class="form-control" placeholder="Contoh: Keperluan & Kegiatan Kelas 5A">
+        </div>
+
+        <div class="form-group">
+          <label for="setIconLogo"><i class="fa-solid fa-icons"></i> Pilih Ikon / Logo Header Web</label>
+          <select id="setIconLogo" class="form-control select-filter" style="width: 100%;">
+            <option value="fa-solid fa-school">🏫 Gedung Sekolah (Default)</option>
+            <option value="fa-solid fa-school-flag">🚩 Bendera Sekolah</option>
+            <option value="fa-solid fa-graduation-cap">🎓 Topi Toga (Kelulusan)</option>
+            <option value="fa-solid fa-book-open">📚 Buku Pelajaran</option>
+            <option value="fa-solid fa-wallet">💰 Dompet Keuangan Kas</option>
+            <option value="fa-solid fa-piggy-bank">🐷 Celengan Kas</option>
+            <option value="fa-solid fa-coins">🪙 Koin Kas Kelas</option>
+            <option value="fa-solid fa-trophy">🏆 Piala / Prestasi</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="setPinBendahara"><i class="fa-solid fa-key"></i> Edit PIN Login Bendahara</label>
+          <input type="text" id="setPinBendahara" class="form-control" placeholder="Contoh: 5A2026">
+        </div>
+
+        <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+          <button type="button" class="btn btn-outline-danger" onclick="app.resetData()" style="color: #dc2626; border: 1px solid #fca5a5; background: #fff5f5; font-size: 0.8rem; border-radius: 6px; padding: 6px 12px; font-weight: 600;"><i class="fa-solid fa-rotate-left"></i> Reset Data Default</button>
+          <div style="display: flex; gap: 8px;">
+            <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalSettings')">Batal</button>
+            <button type="submit" class="btn btn-primary" onclick="app.handleSettingsSubmit(event)"><i class="fa-solid fa-save"></i> Simpan Pengaturan</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Application Logic JavaScript -->
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+
+</body>
+</html>

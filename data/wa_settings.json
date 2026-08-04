@@ -1,0 +1,5 @@
+{
+  "targetPhone": "",
+  "autoSend": true,
+  "template": "🏡 *[KAS RUMAH TANGGA]* Pengeluaran Baru!\n\n📅 *Tanggal* : {tanggal}\n💸 *Jumlah* : {jumlah}\n🏷️ *Kategori* : {kategori}\n📝 *Keterangan* : {keterangan}\n💳 *Metode* : {metode}\n🏢 *Penerima* : {penerima}\n----------------------------------------\n💰 *Sisa Saldo Kas* : {saldo}\n\n_Pesan otomatis dari Sistem Kas Rumah Tangga_"
+}

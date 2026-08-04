@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tx_1722690000001",
+    "type": "pemasukan",
+    "amount": 7500000,
+    "category": "Gaji Utama",
+    "date": "2026-08-01",
+    "note": "Gaji Bulanan Agustus",
+    "paymentMethod": "Transfer Bank",
+    "recipient": "-"
+  },
+  {
+    "id": "tx_1722690000002",
+    "type": "pengeluaran",
+    "amount": 350000,
+    "category": "Belanja Dapur",
+    "date": "2026-08-02",
+    "note": "Belanja bulanan minyak, beras, bumbu",
+    "paymentMethod": "Cash",
+    "recipient": "Supermarket"
+  },
+  {
+    "id": "tx_1722690000003",
+    "type": "pengeluaran",
+    "amount": 450000,
+    "category": "Tagihan & Listrik",
+    "date": "2026-08-02",
+    "note": "Pembayaran Token PLN & WiFi",
+    "paymentMethod": "E-Wallet",
+    "recipient": "PLN & Indihome"
+  },
+  {
+    "id": "tx_1722690000004",
+    "type": "pemasukan",
+    "amount": 1200000,
+    "category": "Bonus & Sampingan",
+    "date": "2026-08-03",
+    "note": "Hasil jualan produk online",
+    "paymentMethod": "Transfer Bank",
+    "recipient": "-"
+  },
+  {
+    "id": "tx_1722690000005",
+    "type": "pengeluaran",
+    "amount": 150000,
+    "category": "Kesehatan",
+    "date": "2026-08-03",
+    "note": "Beli vitamin dan suplemen keluarga",
+    "paymentMethod": "Cash",
+    "recipient": "Apotek"
+  },
+  {
+    "id": "tx_1785751439520",
+    "type": "pengeluaran",
+    "amount": 50000,
+    "category": "Belanja Dapur",
+    "date": "2026-08-03",
+    "note": "Beli buah segar",
+    "paymentMethod": "Cash",
+    "recipient": "Pasar"
+  }
+]
