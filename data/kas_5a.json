@@ -63,16 +63,16 @@
     {
       "id": 1,
       "name": "Adiara Zahwa Aprella",
-      "phone": "",
+      "phone": "082125470951",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
@@ -130,36 +130,36 @@
     {
       "id": 2,
       "name": "Alesha Fitria Khairunnisa",
-      "phone": "",
+      "phone": "081281920272",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -200,34 +200,34 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": false,
@@ -267,64 +267,64 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "februari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "maret_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "april_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "mei_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "juni_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         }
       }
     },
@@ -334,29 +334,29 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -401,29 +401,29 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -468,19 +468,19 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": false,
@@ -532,66 +532,66 @@
     {
       "id": 8,
       "name": "Cavello Vincenzo Pratama",
-      "phone": "",
+      "phone": "082130355514",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -599,66 +599,66 @@
     {
       "id": 9,
       "name": "Chelsea Vebian",
-      "phone": "",
+      "phone": "087894587966",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -666,21 +666,21 @@
     {
       "id": 10,
       "name": "Cleo Vennya Donita",
-      "phone": "",
+      "phone": "08111742629",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -870,29 +870,29 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -937,34 +937,34 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": false,
@@ -1004,64 +1004,64 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "februari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "maret_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "april_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "mei_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "juni_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         }
       }
     },
@@ -1201,37 +1201,37 @@
     },
     {
       "id": 18,
-      "name": "Josua Hamonangan Siahaan",
+      "name": "Josua Hamonangan Slahaan",
       "phone": "",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1336,16 +1336,16 @@
     {
       "id": 20,
       "name": "Khaerul Basyar Rukmana",
-      "phone": "",
+      "phone": "085710401552",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
@@ -1406,29 +1406,29 @@
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -1470,36 +1470,36 @@
     {
       "id": 22,
       "name": "Kim Reynand Andah Pranaja",
-      "phone": "",
+      "phone": "085117070159",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1537,66 +1537,66 @@
     {
       "id": 23,
       "name": "Lutfi Khoirul Nur Ramadhan",
-      "phone": "",
+      "phone": "081283016613",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -1604,36 +1604,36 @@
     {
       "id": 24,
       "name": "Marco Alejandro Mendoza Retno",
-      "phone": "",
+      "phone": "081808251119",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1671,16 +1671,16 @@
     {
       "id": 25,
       "name": "Maryam Audra Milly",
-      "phone": "",
+      "phone": "085176651200",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
@@ -1805,36 +1805,36 @@
     {
       "id": 27,
       "name": "Muhammad Raja El Firdaus",
-      "phone": "",
+      "phone": "087745525749",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1872,21 +1872,21 @@
     {
       "id": 28,
       "name": "Muhammad Rifat Ramadhan",
-      "phone": "",
+      "phone": "081212855837",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -1939,7 +1939,7 @@
     {
       "id": 29,
       "name": "Muhammad Zlatan Alkhalifi",
-      "phone": "",
+      "phone": "081216100160",
       "payments": {
         "juli_2026": {
           "status": false,
@@ -2010,17 +2010,17 @@
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -2073,66 +2073,66 @@
     {
       "id": 31,
       "name": "Naura Alvy Zahya",
-      "phone": "",
+      "phone": "081291890142",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -2140,66 +2140,66 @@
     {
       "id": 32,
       "name": "Queenzha Aqila",
-      "phone": "",
+      "phone": "081288071004",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -2340,22 +2340,22 @@
     },
     {
       "id": 35,
-      "name": "Violla Callista Donita",
-      "phone": "",
+      "name": "Viola Callista Donita",
+      "phone": "08111742629",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -2406,5 +2406,71 @@
       }
     }
   ],
-  "expenses": []
+  "expenses": [
+    {
+      "id": "exp_1",
+      "date": "2026-08-04",
+      "category": "Lain-lain",
+      "amount": 48735,
+      "description": "Tissue 2 Ply A Basics 600gram 2pcs",
+      "evidence": ""
+    },
+    {
+      "id": "exp_2",
+      "date": "2026-08-04",
+      "category": "Lain-lain",
+      "amount": 58600,
+      "description": "Stella Aerosol Balinese Jasmine Sensation Pengharum Ruangan 350ml 2pcs",
+      "evidence": ""
+    },
+    {
+      "id": "exp_3",
+      "date": "2026-07-31",
+      "category": "Lain-lain",
+      "amount": 44000,
+      "description": "Air galon 2 @22000",
+      "evidence": ""
+    },
+    {
+      "id": "exp_4",
+      "date": "2026-07-31",
+      "category": "Lain-lain",
+      "amount": 35000,
+      "description": "Tisue",
+      "evidence": ""
+    },
+    {
+      "id": "exp_5",
+      "date": "2026-07-31",
+      "category": "Fotokopi & Cetak Soal",
+      "amount": 17500,
+      "description": "FC jadwal 35 @500",
+      "evidence": ""
+    },
+    {
+      "id": "exp_6",
+      "date": "2026-07-31",
+      "category": "Fotokopi & Cetak Soal",
+      "amount": 10000,
+      "description": "LKPD MPLS 20 @500",
+      "evidence": ""
+    },
+    {
+      "id": "exp_7",
+      "date": "2026-07-31",
+      "category": "Fotokopi & Cetak Soal",
+      "amount": 17500,
+      "description": "LKPD Wali kelas 35 @500",
+      "evidence": ""
+    },
+    {
+      "id": "exp_8",
+      "date": "2026-08-10",
+      "category": "Keperluan Kelas",
+      "amount": 43000,
+      "description": "Keperluan & Kegiatan Kelas 5A",
+      "recipient": "Toko / Kasir",
+      "evidence": ""
+    }
+  ]
 }

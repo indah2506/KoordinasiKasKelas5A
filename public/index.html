@@ -35,14 +35,25 @@
       </div>
 
       <div class="header-actions">
+        <!-- Cloud Sync Badge Indicator -->
+        <div id="cloudSyncBadge" class="protection-badge unlocked" onclick="app.syncCloudData(true)" title="Klik untuk melakukan Sinkronisasi Cloud HP & PC Manual">
+          <i class="fa-solid fa-cloud-check" style="color: #22c55e;"></i>
+          <span>Cloud Synced (HP & PC)</span>
+        </div>
+
         <!-- Lock / Role Indicator Badge -->
         <div id="protectionBadge" class="protection-badge locked" onclick="app.toggleLockModal()" title="Klik untuk mengubah mode proteksi">
           <i class="fa-solid fa-lock" id="lockIcon"></i>
           <span id="lockText">Mode Wali Murid (Dikunci)</span>
         </div>
 
+
         <button class="btn btn-secondary" onclick="app.exportToExcel()" title="Ekspor Data ke File Excel (.xlsx)">
           <i class="fa-solid fa-file-excel" style="color: #16a34a;"></i> Ekspor Excel
+        </button>
+
+        <button onclick="app.backupData()" title="Download backup data � simpan di HP/PC kamu sebagai cadangan!" style="padding:8px 14px;background:linear-gradient(135deg,#16a34a,#15803d);color:#fff;border:none;border-radius:8px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:13px;" id="backupBtn">
+          <i class="fa-solid fa-shield-halved"></i> Backup Data
         </button>
 
         <button class="btn btn-primary" onclick="app.printReport()" title="Cetak Laporan A4">
@@ -75,8 +86,9 @@
         <i class="fa-solid fa-receipt"></i> 💸 Pengeluaran
       </button>
       <button class="tab-btn" data-tab="tab-rekap">
-        <i class="fa-solid fa-triangle-exclamation"></i> 📊 Rekap & 🚨 Tunggakan
+        <i class="fa-solid fa-chart-column"></i> 📊 Rekap & 📋 Belum Bayar
       </button>
+
       <button class="tab-btn" data-tab="tab-laporan">
         <i class="fa-solid fa-file-invoice"></i> 🧾 Laporan Cetak
       </button>
@@ -173,9 +185,10 @@
               <i class="fa-solid fa-magnifying-glass search-icon"></i>
               <input type="text" id="searchStudentInput" placeholder="Cari nama siswa..." oninput="app.renderStudents()">
             </div>
-            <button class="btn btn-primary bendahara-only" onclick="app.openAddStudentModal()">
+            <button class="btn btn-primary bendahara-only" onclick="app.openStudentModal()">
               <i class="fa-solid fa-plus"></i> Tambah Siswa
             </button>
+
           </div>
         </div>
         <div class="table-responsive">
@@ -221,12 +234,64 @@
 
     <!-- ==================== TAB 4: PENGELUARAN ==================== -->
     <div id="tab-pengeluaran" class="tab-content">
+      <!-- Static Input Form Card (Bendahara Only) -->
+      <div class="content-card bendahara-only" style="margin-bottom: 20px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: var(--radius-lg); padding: 22px; box-shadow: var(--shadow-sm);">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid #f1f5f9;">
+          <div style="background: #f0fdf4; color: #166534; width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.15rem;">
+            <i class="fa-solid fa-file-circle-plus"></i>
+          </div>
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.1rem; color: #0f172a; margin: 0;">Form Catat Pengeluaran Kas Baru</h3>
+            <p style="font-size: 0.8rem; color: #64748b; margin: 2px 0 0 0;">Input transaksi pengeluaran kas kelas secara langsung beserta bukti invoice nota.</p>
+          </div>
+        </div>
+
+        <form onsubmit="app.handleExpenseSubmit(event)">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-bottom: 14px;">
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="expTitleInput" style="font-weight: 600; font-size: 0.85rem; color: #334155;">Keterangan / Keperluan Pengeluaran</label>
+              <input type="text" id="expTitleInput" class="form-control" placeholder="Contoh: Beli spidol & kertas HVS" required style="padding: 9px 12px;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="expAmountInput" style="font-weight: 600; font-size: 0.85rem; color: #334155;">Nominal Pengeluaran (Rp)</label>
+              <input type="number" id="expAmountInput" class="form-control" placeholder="Contoh: 45000" min="500" required style="padding: 9px 12px;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="expCategorySelect" style="font-weight: 600; font-size: 0.85rem; color: #334155;">Kategori Pengeluaran</label>
+              <select id="expCategorySelect" class="form-control select-filter" style="width: 100%; padding: 9px 12px;">
+                <option value="Alat Tulis & Kelengkapan Kelas">Alat Tulis & Kelengkapan Kelas</option>
+                <option value="Fotokopi & Cetak Soal">Fotokopi & Cetak Soal</option>
+                <option value="Acara & Ulang Tahun">Acara & Ulang Tahun / Lomba</option>
+                <option value="Kebersihan & Kesehatan">Kebersihan & Kesehatan</option>
+                <option value="Lain-lain">Lain-lain</option>
+              </select>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="expDateInput" style="font-weight: 600; font-size: 0.85rem; color: #334155;">Tanggal Pengeluaran</label>
+              <input type="date" id="expDateInput" class="form-control" required style="padding: 9px 12px;">
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 14px; flex-wrap: wrap;">
+            <div class="form-group" style="margin-bottom: 0; flex: 1; min-width: 240px;">
+              <label for="expEvidenceFile" style="font-weight: 600; font-size: 0.85rem; color: #334155;"><i class="fa-solid fa-paperclip" style="color: #16a34a;"></i> Unggah / Attach Invoice Nota Bukti (Gambar/Foto)</label>
+              <input type="file" id="expEvidenceFile" class="form-control" accept="image/*" style="padding: 6px;">
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-solid fa-plus"></i> Simpan Pengeluaran
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Table Card -->
       <div class="content-card">
         <div class="card-title-row">
           <h2 class="section-title"><i class="fa-solid fa-receipt"></i> Catatan Pengeluaran Kas Kelas</h2>
-          <button class="btn btn-primary bendahara-only" onclick="app.openAddExpenseModal()">
-            <i class="fa-solid fa-plus"></i> Catat Pengeluaran Baru
-          </button>
         </div>
         <div class="table-responsive">
           <table class="data-table">
@@ -249,12 +314,14 @@
       </div>
     </div>
 
+
     <!-- ==================== TAB 5: REKAP & TUNGGAKAN ==================== -->
     <div id="tab-rekap" class="tab-content">
       <div class="content-card">
         <div class="card-title-row">
-          <h2 class="section-title"><i class="fa-solid fa-chart-column"></i> Rekap Per Bulan & Daftar Tunggakan Siswa</h2>
+          <h2 class="section-title"><i class="fa-solid fa-chart-column"></i> Rekap Per Bulan & Status Siswa Belum Bayar</h2>
           <div class="table-filter-bar">
+
             <select id="rekapMonthFilter" class="select-filter" onchange="app.renderRekap()">
               <!-- Dynamic Month Options -->
             </select>
@@ -432,7 +499,13 @@
           <label for="expDateInput">Tanggal Pengeluaran</label>
           <input type="date" id="expDateInput" class="form-control" required>
         </div>
+        <div class="form-group">
+          <label for="expEvidenceFile"><i class="fa-solid fa-paperclip"></i> Unggah / Attach Invoice Nota Bukti (Gambar/Foto)</label>
+          <input type="file" id="expEvidenceFile" class="form-control" accept="image/*">
+          <small style="color: #64748b; font-size: 0.775rem; margin-top: 4px; display: block;">Opsional: Lampirkan foto kwitansi/nota pembelian invoice</small>
+        </div>
         <div class="modal-footer">
+
           <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalExpense')">Batal</button>
           <button type="submit" class="btn btn-primary"><i class="fa-solid fa-save"></i> Simpan Pengeluaran</button>
         </div>
@@ -498,9 +571,18 @@
         </div>
 
         <div class="form-group">
+          <label for="setWaTemplate"><i class="fa-brands fa-whatsapp" style="color: #22c55e;"></i> Script / Template Pesan Followup WhatsApp</label>
+          <textarea id="setWaTemplate" class="form-control" rows="5" placeholder="Gunakan tag: {nama_siswa}, {bulan}, {nominal}, {nama_sekolah}"></textarea>
+          <small style="color: #64748b; font-size: 0.775rem; margin-top: 4px; display: block;">
+            Gunakan variabel otomatis: <code>{nama_siswa}</code>, <code>{bulan}</code>, <code>{nominal}</code>, <code>{nama_sekolah}</code>
+          </small>
+        </div>
+
+        <div class="form-group">
           <label for="setPinBendahara"><i class="fa-solid fa-key"></i> Edit PIN Login Bendahara</label>
           <input type="text" id="setPinBendahara" class="form-control" placeholder="Contoh: 5A2026">
         </div>
+
 
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
           <button type="button" class="btn btn-outline-danger" onclick="app.resetData()" style="color: #dc2626; border: 1px solid #fca5a5; background: #fff5f5; font-size: 0.8rem; border-radius: 6px; padding: 6px 12px; font-weight: 600;"><i class="fa-solid fa-rotate-left"></i> Reset Data Default</button>
@@ -513,7 +595,46 @@
     </div>
   </div>
 
+  <!-- MODAL 6: PRATINJAU PENGINGAT WHATSAPP -->
+  <div id="modalWAReminder" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-brands fa-whatsapp" style="color: #22c55e;"></i> Kirim Pengingat WhatsApp</h3>
+        <button class="modal-close" onclick="app.closeModal('modalWAReminder')">&times;</button>
+      </div>
+      <div class="form-group">
+        <label for="waMessageText">Pesan Pengingat Kas Kelas 5A</label>
+        <textarea id="waMessageText" class="form-control" rows="8" style="font-family: inherit; font-size: 0.875rem; line-height: 1.5;"></textarea>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
+        <button type="button" class="btn btn-secondary" onclick="app.copyToClipboard(document.getElementById('waMessageText').value)">
+          <i class="fa-solid fa-copy"></i> Salin Teks
+        </button>
+        <div style="display: flex; gap: 8px;">
+          <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalWAReminder')">Batal</button>
+          <button type="button" class="btn btn-primary" id="btnOpenWhatsApp" style="background: #16a34a;">
+            <i class="fa-brands fa-whatsapp"></i> Buka WhatsApp
+          </button>
+        </div>
+  <!-- MODAL 7: RIWAYAT PEMBAYARAN KAS SISWA -->
+  <div id="modalStudentHistory" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title" id="historyModalTitle"><i class="fa-solid fa-clock-rotate-left"></i> Riwayat Pembayaran Kas Siswa</h3>
+        <button class="modal-close" onclick="app.closeModal('modalStudentHistory')">&times;</button>
+      </div>
+      <div id="historyModalContent" style="padding: 10px 0;">
+        <!-- Dynamic History Rows -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="app.closeModal('modalStudentHistory')">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+
   <!-- Application Logic JavaScript -->
+
   <script src="app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>

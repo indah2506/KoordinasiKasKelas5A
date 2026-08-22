@@ -68,16 +68,16 @@ const INITIAL_DATA = {
     {
       "id": 1,
       "name": "Adiara Zahwa Aprella",
-      "phone": "",
+      "phone": "082125470951",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
@@ -135,36 +135,36 @@ const INITIAL_DATA = {
     {
       "id": 2,
       "name": "Alesha Fitria Khairunnisa",
-      "phone": "",
+      "phone": "081281920272",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -205,34 +205,34 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": false,
@@ -272,64 +272,64 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "februari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "maret_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "april_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "mei_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "juni_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         }
       }
     },
@@ -339,29 +339,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -406,29 +406,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -473,19 +473,19 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-10",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": false,
@@ -537,66 +537,66 @@ const INITIAL_DATA = {
     {
       "id": 8,
       "name": "Cavello Vincenzo Pratama",
-      "phone": "",
+      "phone": "082130355514",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -604,66 +604,66 @@ const INITIAL_DATA = {
     {
       "id": 9,
       "name": "Chelsea Vebian",
-      "phone": "",
+      "phone": "087894587966",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -671,21 +671,21 @@ const INITIAL_DATA = {
     {
       "id": 10,
       "name": "Cleo Vennya Donita",
-      "phone": "",
+      "phone": "08111742629",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -875,29 +875,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -942,34 +942,34 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": false,
@@ -1009,64 +1009,64 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "februari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "maret_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "april_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "mei_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "juni_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         }
       }
     },
@@ -1206,37 +1206,37 @@ const INITIAL_DATA = {
     },
     {
       "id": 18,
-      "name": "Josua Hamonangan Siahaan",
+      "name": "Josua Hamonangan Slahaan",
       "phone": "",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1341,16 +1341,16 @@ const INITIAL_DATA = {
     {
       "id": 20,
       "name": "Khaerul Basyar Rukmana",
-      "phone": "",
+      "phone": "085710401552",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
@@ -1411,29 +1411,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -1475,36 +1475,36 @@ const INITIAL_DATA = {
     {
       "id": 22,
       "name": "Kim Reynand Andah Pranaja",
-      "phone": "",
+      "phone": "085117070159",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1542,66 +1542,66 @@ const INITIAL_DATA = {
     {
       "id": 23,
       "name": "Lutfi Khoirul Nur Ramadhan",
-      "phone": "",
+      "phone": "081283016613",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -1609,36 +1609,36 @@ const INITIAL_DATA = {
     {
       "id": 24,
       "name": "Marco Alejandro Mendoza Retno",
-      "phone": "",
+      "phone": "081808251119",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1676,16 +1676,16 @@ const INITIAL_DATA = {
     {
       "id": 25,
       "name": "Maryam Audra Milly",
-      "phone": "",
+      "phone": "085176651200",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
@@ -1810,36 +1810,36 @@ const INITIAL_DATA = {
     {
       "id": 27,
       "name": "Muhammad Raja El Firdaus",
-      "phone": "",
+      "phone": "087745525749",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
@@ -1877,21 +1877,21 @@ const INITIAL_DATA = {
     {
       "id": 28,
       "name": "Muhammad Rifat Ramadhan",
-      "phone": "",
+      "phone": "081212855837",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -1944,7 +1944,7 @@ const INITIAL_DATA = {
     {
       "id": 29,
       "name": "Muhammad Zlatan Alkhalifi",
-      "phone": "",
+      "phone": "081216100160",
       "payments": {
         "juli_2026": {
           "status": false,
@@ -2015,17 +2015,17 @@ const INITIAL_DATA = {
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -2078,66 +2078,66 @@ const INITIAL_DATA = {
     {
       "id": 31,
       "name": "Naura Alvy Zahya",
-      "phone": "",
+      "phone": "081291890142",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -2145,66 +2145,66 @@ const INITIAL_DATA = {
     {
       "id": 32,
       "name": "Queenzha Aqila",
-      "phone": "",
+      "phone": "081288071004",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "februari_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "maret_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "april_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "mei_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "juni_2027": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         }
       }
@@ -2345,22 +2345,22 @@ const INITIAL_DATA = {
     },
     {
       "id": 35,
-      "name": "Violla Callista Donita",
-      "phone": "",
+      "name": "Viola Callista Donita",
+      "phone": "08111742629",
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-03",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
@@ -2411,7 +2411,73 @@ const INITIAL_DATA = {
       }
     }
   ],
-  "expenses": []
+  "expenses": [
+    {
+      "id": "exp_1",
+      "date": "2026-08-04",
+      "category": "Lain-lain",
+      "amount": 48735,
+      "description": "Tissue 2 Ply A Basics 600gram 2pcs",
+      "evidence": ""
+    },
+    {
+      "id": "exp_2",
+      "date": "2026-08-04",
+      "category": "Lain-lain",
+      "amount": 58600,
+      "description": "Stella Aerosol Balinese Jasmine Sensation Pengharum Ruangan 350ml 2pcs",
+      "evidence": ""
+    },
+    {
+      "id": "exp_3",
+      "date": "2026-07-31",
+      "category": "Lain-lain",
+      "amount": 44000,
+      "description": "Air galon 2 @22000",
+      "evidence": ""
+    },
+    {
+      "id": "exp_4",
+      "date": "2026-07-31",
+      "category": "Lain-lain",
+      "amount": 35000,
+      "description": "Tisue",
+      "evidence": ""
+    },
+    {
+      "id": "exp_5",
+      "date": "2026-07-31",
+      "category": "Fotokopi & Cetak Soal",
+      "amount": 17500,
+      "description": "FC jadwal 35 @500",
+      "evidence": ""
+    },
+    {
+      "id": "exp_6",
+      "date": "2026-07-31",
+      "category": "Fotokopi & Cetak Soal",
+      "amount": 10000,
+      "description": "LKPD MPLS 20 @500",
+      "evidence": ""
+    },
+    {
+      "id": "exp_7",
+      "date": "2026-07-31",
+      "category": "Fotokopi & Cetak Soal",
+      "amount": 17500,
+      "description": "LKPD Wali kelas 35 @500",
+      "evidence": ""
+    },
+    {
+      "id": "exp_8",
+      "date": "2026-08-10",
+      "category": "Keperluan Kelas",
+      "amount": 43000,
+      "description": "Keperluan & Kegiatan Kelas 5A",
+      "recipient": "Toko / Kasir",
+      "evidence": ""
+    }
+  ]
 };
 
 class KasApp {
@@ -2434,10 +2500,107 @@ class KasApp {
     try { this.renderRekapDropdowns(); } catch (e) { console.error('Rekap dropdowns render error:', e); }
     try { this.renderRekap(); } catch (e) { console.error('Rekap render error:', e); }
     try { this.renderReport(); } catch (e) { console.error('Report render error:', e); }
+    this.startAutoSyncLoop();
+    this.checkAutoDailyBackup();
   }
 
+  // --- GLOBAL PERSISTENT CLOUD DATABASE ENGINE ---
+  encodeCloudState(appData) {
+    if (!appData || !appData.students || !appData.months) return null;
+    const months = appData.months.map(m => m.key);
+    let bitStr = '';
+
+    appData.students.forEach((st) => {
+      months.forEach((mKey) => {
+        const p = st.payments ? st.payments[mKey] : null;
+        const isPaid = (p && (p === true || p.status === true || p.status === 'true' || p.status === 'LUNAS'));
+        bitStr += isPaid ? '1' : '0';
+      });
+    });
+
+    const expLight = (appData.expenses || []).map(e => ({
+      id: e.id || '',
+      date: e.date || '',
+      amount: e.amount || 0,
+      description: e.description || '',
+      category: e.category || ''
+    }));
+
+    return {
+      u: Date.now(),
+      b: bitStr,
+      e: expLight,
+      w: (appData.settings && appData.settings.namaWaliKelas) ? appData.settings.namaWaliKelas : 'Bu Liswati',
+      k: (appData.settings && appData.settings.namaKoordinator) ? appData.settings.namaKoordinator : 'Mom Kim',
+      n: (appData.settings && appData.settings.nominalPerBulan) ? appData.settings.nominalPerBulan : 20000
+    };
+  }
+
+  applyCloudState(cloudData) {
+    if (!cloudData || !cloudData.b || !this.data || !this.data.students) return;
+    const months = this.data.months.map(m => m.key);
+    const bitStr = cloudData.b;
+
+    this.data.students.forEach((st, sIdx) => {
+      if (!st.payments) st.payments = {};
+      months.forEach((mKey, mIdx) => {
+        const charIdx = sIdx * 12 + mIdx;
+        const isPaid = bitStr[charIdx] === '1';
+        const existing = st.payments[mKey] || {};
+        st.payments[mKey] = {
+          status: isPaid,
+          date: isPaid ? (existing.date || '2026-08-01') : '',
+          method: isPaid ? (existing.method || 'Cash / Tunai') : ''
+        };
+      });
+    });
+
+    if (cloudData.e && Array.isArray(cloudData.e)) {
+      this.data.expenses = cloudData.e.map(e => ({
+        id: e.id || 'exp_' + Date.now(),
+        date: e.date || '',
+        category: e.category || 'Alat Tulis & Kelengkapan Kelas',
+        amount: e.amount || 0,
+        description: e.description || '',
+        evidence: ''
+      }));
+    }
+
+    if (cloudData.w) this.data.settings.namaWaliKelas = cloudData.w;
+    if (cloudData.k) this.data.settings.namaKoordinator = cloudData.k;
+    if (cloudData.n) this.data.settings.nominalPerBulan = cloudData.n;
+    if (cloudData.u) this.lastCloudTimestamp = cloudData.u;
+  }
+
+  syncCloudData(force = false) {
+    // Sync badge display only — data comes from localStorage / INITIAL_DATA
+    const cloudStatusEl = document.getElementById('cloudSyncBadge');
+    if (cloudStatusEl) {
+      cloudStatusEl.innerHTML = '<i class="fa-solid fa-cloud-check" style="color: #22c55e;"></i> <span>Data Tersimpan</span>';
+    }
+  }
+
+  renderAllViews() {
+    try { this.renderDashboard(); } catch (e) {}
+    try { this.renderStudents(); } catch (e) {}
+    try { this.renderPaymentMatrix(); } catch (e) {}
+    try { this.renderExpenses(); } catch (e) {}
+    try { this.renderRekap(); } catch (e) {}
+    try { this.renderReport(); } catch (e) {}
+  }
+
+  startAutoSyncLoop() {
+    // Badge refresh on visibility change only
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') {
+        this.syncCloudData(false);
+      }
+    });
+    this.syncCloudData(false);
+  }
 
   setupTabs() {
+
     const tabButtons = document.querySelectorAll('.tab-btn');
     tabButtons.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -2470,97 +2633,110 @@ class KasApp {
   }
 
 
-  loadData() {
-    let loadedData = null;
+  // ── Count paid months from a data object ─────────────────────────────────
+  countPaid(dataObj) {
+    let count = 0;
+    if (!dataObj || !dataObj.students) return 0;
+    dataObj.students.forEach(st => {
+      if (!st || !st.payments) return;
+      Object.values(st.payments).forEach(p => {
+        if (p === true || (p && (p.status === true || p.status === 'true'
+            || p.status === 'LUNAS' || p.status === 1 || p.status === '1'))) count++;
+      });
+    });
+    return count;
+  }
 
-    try {
-      const local = localStorage.getItem('kas_5a_data');
-      if (local) {
-        const parsed = JSON.parse(local);
-        if (parsed && parsed.students && Array.isArray(parsed.students) && parsed.students.length > 0) {
-          let paidCount = 0;
-          parsed.students.forEach(st => {
-            if (st && st.payments) {
-              Object.keys(st.payments).forEach(k => {
-                const p = st.payments[k];
-                if (p && (p === true || p.status === true || p.status === 'true' || p.status === 'LUNAS' || p.status === 'lunas' || p.status === 1 || p.status === '1')) {
-                  paidCount++;
-                }
-              });
-            }
-          });
-
-          if (paidCount > 0) {
-            loadedData = parsed;
-          } else {
-            console.warn('[KasApp] Local storage cache had 0 payments. Clearing cache.');
-            try { localStorage.removeItem('kas_5a_data'); } catch (e) {}
-          }
+  // ── Find best (most paid) backup from all localStorage slots ──────────────
+  _loadBestBackup() {
+    const keys = ['kas_5a_data', 'kas_5a_backup_1', 'kas_5a_backup_2'];
+    let best = null, bestCount = -1;
+    keys.forEach(k => {
+      try {
+        const raw = localStorage.getItem(k);
+        if (!raw) return;
+        const parsed = JSON.parse(raw);
+        const cnt = this.countPaid(parsed);
+        if (cnt > bestCount && parsed.students && parsed.students.length > 0) {
+          bestCount = cnt;
+          best = parsed;
         }
-      }
-    } catch (err) {
-      console.warn('[KasApp] Could not read local storage:', err);
-      try { localStorage.removeItem('kas_5a_data'); } catch (e) {}
-    }
+      } catch(e){}
+    });
+    return best;
+  }
 
-    if (!loadedData) {
+  loadData() {
+    // Get best backup across all 3 slots
+    let loadedData = this._loadBestBackup();
+    const paidLocal = this.countPaid(loadedData);
+    const paidInit  = this.countPaid(INITIAL_DATA);
+
+    if (!loadedData || paidLocal < paidInit) {
+      // Local data is older/empty — use INITIAL_DATA
+      console.warn('[KasApp] ⚠️ Using INITIAL_DATA (local backup empty or older).');
       loadedData = JSON.parse(JSON.stringify(INITIAL_DATA));
     }
 
-    if (!loadedData.months || !Array.isArray(loadedData.months) || loadedData.months.length === 0) {
-      loadedData.months = JSON.parse(JSON.stringify(INITIAL_DATA.months));
-    }
-
-    if (!loadedData.expenses || !Array.isArray(loadedData.expenses)) {
+    // Ensure all required fields exist
+    if (!loadedData.months || !loadedData.months.length)
+      loadedData.months   = JSON.parse(JSON.stringify(INITIAL_DATA.months));
+    if (!loadedData.expenses || !Array.isArray(loadedData.expenses))
       loadedData.expenses = JSON.parse(JSON.stringify(INITIAL_DATA.expenses || []));
-    }
-
-    if (!loadedData.students || !Array.isArray(loadedData.students) || loadedData.students.length === 0) {
+    if (!loadedData.students || !loadedData.students.length)
       loadedData.students = JSON.parse(JSON.stringify(INITIAL_DATA.students));
-    }
 
     if (!loadedData.settings) loadedData.settings = {};
-    loadedData.settings.namaWaliKelas = loadedData.settings.namaWaliKelas || 'Bu Liswati';
-    loadedData.settings.namaKoordinator = loadedData.settings.namaKoordinator || loadedData.settings.namaBendahara || 'Mom Kim';
-    loadedData.settings.namaBendahara = loadedData.settings.namaKoordinator || 'Mom Kim';
+    loadedData.settings.namaWaliKelas   = loadedData.settings.namaWaliKelas   || 'Bu Liswati';
+    loadedData.settings.namaKoordinator = loadedData.settings.namaKoordinator || 'Mom Kim';
+    loadedData.settings.namaBendahara   = loadedData.settings.namaBendahara   || 'Mom Kim';
 
     this.data = loadedData;
 
-    try {
-      localStorage.setItem('kas_5a_data', JSON.stringify(this.data));
-    } catch (e) {}
+    // Save to all 3 slots immediately on load
+    const json = JSON.stringify(this.data);
+    try { localStorage.setItem('kas_5a_data',       json); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_1',   json); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_2',   json); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_paid', String(this.countPaid(this.data))); } catch(e){}
   }
-
-
-  resetData() {
-    try { localStorage.removeItem('kas_5a_data'); } catch (e) {}
-    this.data = JSON.parse(JSON.stringify(INITIAL_DATA));
-    this.saveData();
-    alert('🔄 Data kas telah berhasil dipulihkan 100% ke status default (35 Siswa & Rp 2.160.000)!');
-  }
-
-
-
 
   async saveData() {
-    localStorage.setItem('kas_5a_data', JSON.stringify(this.data));
-    try {
-      await fetch('/api/kas_5a/save', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ data: this.data })
-      });
-    } catch (e) {
-      console.warn('[KasApp] API sync failed, saved locally.');
+    const paidNow  = this.countPaid(this.data);
+
+    // 🛡️ SAFETY CHECK: never save data with FEWER paid entries than current backup
+    const bestBackup = this._loadBestBackup();
+    const bestPaid   = this.countPaid(bestBackup);
+    if (bestPaid > paidNow + 5) {
+      // Something is very wrong — abort save to protect existing data
+      console.error('[KasApp] 🚫 Data protection triggered! Refusing to overwrite', bestPaid, 'paid entries with only', paidNow);
+      this.renderAllViews();
+      return;
     }
 
-    this.renderDashboard();
-    this.renderStudents();
-    this.renderPaymentMatrix();
-    this.renderExpenses();
-    this.renderRekap();
-    this.renderReport();
+    const json = JSON.stringify(this.data);
+
+    // Save to all 3 backup slots
+    try { localStorage.setItem('kas_5a_data',        json); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_1',    json); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_2',    json); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_ts',   String(Date.now())); } catch(e){}
+    try { localStorage.setItem('kas_5a_backup_paid', String(paidNow)); } catch(e){}
+
+    // Backup to Vercel server
+    try {
+      fetch('/api/kas_5a/save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: json
+      });
+    } catch(e){}
+
+    this.renderAllViews();
   }
+
+
+
 
   getPayment(student, monthKey) {
     if (!student || !student.payments) return { status: false, date: '', method: '' };
@@ -2606,20 +2782,34 @@ class KasApp {
       if (icon) icon.className = 'fa-solid fa-lock-open';
       if (text) text.innerText = 'Mode Bendahara (Bisa Edit)';
       if (loginBtn) loginBtn.innerHTML = '<i class="fa-solid fa-lock"></i> Kunci / Logout';
-      if (document.body) document.body.classList.add('unlocked-mode');
+      if (document.body && document.body.classList) document.body.classList.add('unlocked-mode');
+
+      document.querySelectorAll('.nav-tabs .tab-btn').forEach(btn => {
+        btn.style.display = '';
+      });
     } else {
       if (badge) badge.className = 'protection-badge locked';
       if (icon) icon.className = 'fa-solid fa-lock';
       if (text) text.innerText = 'Mode Wali Murid (Dikunci)';
       if (loginBtn) loginBtn.innerHTML = '<i class="fa-solid fa-key"></i> Login Bendahara';
-      if (document.body) document.body.classList.remove('unlocked-mode');
-    }
+      if (document.body && document.body.classList) document.body.classList.remove('unlocked-mode');
 
+      this.switchTab('tab-dashboard');
+      document.querySelectorAll('.nav-tabs .tab-btn').forEach(btn => {
+        const tabTarget = btn.getAttribute('data-tab');
+        if (tabTarget !== 'tab-dashboard') {
+          btn.style.display = 'none';
+        } else {
+          btn.style.display = '';
+        }
+      });
+    }
 
     document.querySelectorAll('.bendahara-only').forEach(el => {
       if (el) el.style.display = this.isUnlocked ? '' : 'none';
     });
   }
+
 
 
 
@@ -2817,8 +3007,9 @@ class KasApp {
   // --- TAB 2: DATA SISWA ---
   renderStudents() {
     const search = (document.getElementById('searchStudentInput')?.value || '').toLowerCase();
-    const tbody = document.getElementById('studentTableBody');
+    const tbody = document.getElementById('tbodyStudents') || document.getElementById('studentTableBody');
     if (!tbody) return;
+
 
     let filtered = this.data.students.filter(st => 
       st.name.toLowerCase().includes(search)
@@ -2878,40 +3069,56 @@ class KasApp {
     this.updateProtectionUI();
   }
 
+  openAddStudentModal(id = null) {
+    this.openStudentModal(id);
+  }
+
   openStudentModal(id = null) {
+
     if (!this.isUnlocked) {
       alert('🔒 Harap Login Bendahara untuk menambah/mengedit data siswa.');
       return;
     }
 
     const title = document.getElementById('modalStudentTitle');
-    const studentId = document.getElementById('studentId');
-    const name = document.getElementById('studentName');
-    const phone = document.getElementById('studentPhone');
+    const studentId = document.getElementById('studentId') || document.getElementById('studentEditId');
+    const name = document.getElementById('studentName') || document.getElementById('studentNameInput');
+    const phone = document.getElementById('studentPhone') || document.getElementById('studentPhoneInput');
+
+    if (!studentId || !name) return;
 
     if (id) {
       const st = this.data.students.find(s => s.id === id);
       if (st) {
-        title.innerHTML = '<i class="fa-solid fa-user-pen"></i> Edit Data Siswa';
+        if (title) title.innerHTML = '<i class="fa-solid fa-user-pen"></i> Edit Data Siswa';
         studentId.value = st.id;
         name.value = st.name || '';
-        phone.value = (st.phone && st.phone.toLowerCase() !== st.name.toLowerCase()) ? st.phone : '';
+        if (phone) phone.value = (st.phone && st.phone.toLowerCase() !== st.name.toLowerCase()) ? st.phone : '';
       }
     } else {
-      title.innerHTML = '<i class="fa-solid fa-user-plus"></i> Tambah Data Siswa';
+      if (title) title.innerHTML = '<i class="fa-solid fa-user-plus"></i> Tambah Data Siswa';
       studentId.value = '';
       name.value = '';
-      phone.value = '';
+      if (phone) phone.value = '';
     }
 
     this.openModal('modalStudent');
   }
 
   handleStudentSubmit(e) {
-    e.preventDefault();
-    const id = document.getElementById('studentId').value;
-    const name = document.getElementById('studentName').value;
-    let phone = (document.getElementById('studentPhone').value || '').trim();
+    if (e && e.preventDefault) e.preventDefault();
+
+    const studentIdEl = document.getElementById('studentId') || document.getElementById('studentEditId');
+    const nameEl = document.getElementById('studentName') || document.getElementById('studentNameInput');
+    const phoneEl = document.getElementById('studentPhone') || document.getElementById('studentPhoneInput');
+
+    if (!nameEl) return;
+
+    const id = studentIdEl ? studentIdEl.value : '';
+    const name = nameEl.value.trim();
+    let phone = phoneEl ? phoneEl.value.trim() : '';
+
+    if (!name) return;
 
     if (phone.toLowerCase() === name.toLowerCase()) {
       phone = '';
@@ -2930,8 +3137,8 @@ class KasApp {
 
       this.data.students.push({
         id: newId,
-        name,
-        phone,
+        name: name,
+        phone: phone,
         payments: initialPayments
       });
     }
@@ -2939,6 +3146,7 @@ class KasApp {
     this.saveData();
     this.closeModal('modalStudent');
   }
+
 
   deleteStudent(id) {
     if (!this.isUnlocked) return;
@@ -2953,8 +3161,11 @@ class KasApp {
     const st = this.data.students.find(s => s.id === id);
     if (!st) return;
 
-    document.getElementById('historyModalTitle').innerText = `Riwayat Kas: ${st.name}`;
-    const content = document.getElementById('historyModalContent');
+    const title = document.getElementById('historyModalTitle') || document.getElementById('modalHistoryTitle');
+    if (title) title.innerText = `Riwayat Kas: ${st.name}`;
+
+    const content = document.getElementById('historyModalContent') || document.getElementById('modalHistoryContent');
+    if (!content) return;
 
     const nominal = this.data.settings.nominalPerBulan || 20000;
     let rowsHtml = this.data.months.map(m => {
@@ -2979,16 +3190,18 @@ class KasApp {
     this.openModal('modalStudentHistory');
   }
 
+
   // --- TAB 3: PEMBAYARAN KAS MATRIX & DETAIL PEMBAYARAN ---
   renderPaymentMatrix() {
     const selectedMonth = document.getElementById('filterMonthSelect')?.value || 'ALL';
     const search = (document.getElementById('searchMatrixInput')?.value || '').toLowerCase();
 
-    const thead = document.getElementById('paymentMatrixHeader');
-    const tbody = document.getElementById('paymentMatrixBody');
+    const thead = document.getElementById('theadPaymentMatrix') || document.getElementById('paymentMatrixHeader');
+    const tbody = document.getElementById('tbodyPaymentMatrix') || document.getElementById('paymentMatrixBody');
     const tfoot = document.getElementById('paymentMatrixFooter');
 
     if (!thead || !tbody) return;
+
 
     const visibleMonths = selectedMonth === 'ALL'
       ? this.data.months
@@ -3084,20 +3297,27 @@ class KasApp {
 
     const pay = this.getPayment(st, monthKey);
 
-    document.getElementById('payStudentId').value = studentId;
-    document.getElementById('payMonthKey').value = monthKey;
-    document.getElementById('payStudentMonthLabel').innerText = `${st.name} — Kas Bulan ${monthObj.label}`;
+    const studentIdEl = document.getElementById('payStudentId');
+    const monthKeyEl = document.getElementById('payMonthKey');
+    const infoEl = document.getElementById('payStudentInfo') || document.getElementById('payStudentMonthLabel');
+
+    if (studentIdEl) studentIdEl.value = studentId;
+    if (monthKeyEl) monthKeyEl.value = monthKey;
+    if (infoEl) infoEl.innerText = `${st.name} — Kas Bulan ${monthObj.label}`;
 
     const statusSelect = document.getElementById('payStatusSelect');
-    statusSelect.value = pay.status ? 'LUNAS' : 'BELUM';
+    if (statusSelect) statusSelect.value = pay.status ? 'true' : 'false';
 
     const nominal = this.data.settings.nominalPerBulan || 20000;
     const amountInput = document.getElementById('payAmountInput');
     if (amountInput) amountInput.value = nominal;
 
     const todayStr = new Date().toISOString().split('T')[0];
-    document.getElementById('payDate').value = pay.date || todayStr;
-    document.getElementById('payMethod').value = pay.method || 'Transfer Bank';
+    const dateInput = document.getElementById('payDateInput') || document.getElementById('payDate');
+    const methodSelect = document.getElementById('payMethodSelect') || document.getElementById('payMethod');
+
+    if (dateInput) dateInput.value = pay.date || todayStr;
+    if (methodSelect) methodSelect.value = pay.method || 'Transfer Bank / QRIS';
 
     this.onPayStatusChange();
     this.onPayAmountInput();
@@ -3105,14 +3325,19 @@ class KasApp {
   }
 
   onPayStatusChange() {
-    const val = document.getElementById('payStatusSelect').value;
+    const statusSelect = document.getElementById('payStatusSelect');
     const detailFields = document.getElementById('payDetailFields');
-    if (val === 'LUNAS') {
-      detailFields.style.display = 'block';
-    } else {
-      detailFields.style.display = 'none';
+    if (!statusSelect) return;
+    const val = statusSelect.value;
+    if (detailFields) {
+      if (val === 'true' || val === 'LUNAS') {
+        detailFields.style.display = 'block';
+      } else {
+        detailFields.style.display = 'none';
+      }
     }
   }
+
 
   onPayAmountInput() {
     const amountVal = parseFloat(document.getElementById('payAmountInput')?.value) || 0;
@@ -3142,21 +3367,35 @@ class KasApp {
   }
 
   handlePaymentDetailSubmit(e) {
-    e.preventDefault();
-    if (!this.isUnlocked) return;
+    if (e && e.preventDefault) e.preventDefault();
+    if (!this.isUnlocked) {
+      alert('🔒 Mode Wali Murid (Dikunci). Silakan Login Bendahara terlebih dahulu.');
+      return;
+    }
 
-    const studentId = parseInt(document.getElementById('payStudentId').value);
-    const monthKey = document.getElementById('payMonthKey').value;
-    const statusVal = document.getElementById('payStatusSelect').value;
-    const amountVal = parseFloat(document.getElementById('payAmountInput')?.value) || 20000;
-    const dateVal = document.getElementById('payDate').value;
-    const methodVal = document.getElementById('payMethod').value;
+    const studentIdEl = document.getElementById('payStudentId');
+    const monthKeyEl = document.getElementById('payMonthKey');
+    const statusSelect = document.getElementById('payStatusSelect');
+    const amountInput = document.getElementById('payAmountInput');
+    const dateInput = document.getElementById('payDateInput') || document.getElementById('payDate');
+    const methodSelect = document.getElementById('payMethodSelect') || document.getElementById('payMethod');
+
+    if (!studentIdEl || !monthKeyEl) return;
+
+    const studentId = parseInt(studentIdEl.value);
+    const monthKey = monthKeyEl.value;
+    const statusRaw = statusSelect ? statusSelect.value : 'true';
+    const isPaid = (statusRaw === 'true' || statusRaw === 'LUNAS' || statusRaw === true);
+    const amountVal = amountInput ? (parseFloat(amountInput.value) || 20000) : 20000;
+    const todayStr = new Date().toISOString().split('T')[0];
+    const dateVal = dateInput && dateInput.value ? dateInput.value : todayStr;
+    const methodVal = methodSelect ? methodSelect.value : 'Transfer Bank / QRIS';
 
     const st = this.data.students.find(s => s.id === studentId);
     if (st) {
       if (!st.payments) st.payments = {};
 
-      if (statusVal === 'LUNAS') {
+      if (isPaid) {
         const nominal = this.data.settings.nominalPerBulan || 20000;
         const count = Math.max(1, Math.floor(amountVal / nominal));
         const startIdx = this.data.months.findIndex(m => m.key === monthKey);
@@ -3187,15 +3426,21 @@ class KasApp {
     }
   }
 
+  handlePaymentSubmit(e) {
+    this.handlePaymentDetailSubmit(e);
+  }
+
+
 
   // --- TAB 4: PENGELUARAN & EVIDENCE ---
   renderExpenses() {
-    const tbody = document.getElementById('expenseTableBody');
+    const tbody = document.getElementById('tbodyExpenses') || document.getElementById('expenseTableBody');
     const countText = document.getElementById('expenseCountText');
     if (!tbody) return;
 
     const expenses = (this.data.expenses || []).sort((a, b) => new Date(b.date) - new Date(a.date));
-    countText.innerText = `${expenses.length} Transaksi`;
+    if (countText) countText.innerText = `${expenses.length} Transaksi`;
+
 
     tbody.innerHTML = expenses.map((exp, idx) => {
       const hasEvidence = !!exp.evidence;
@@ -3223,34 +3468,65 @@ class KasApp {
     this.updateProtectionUI();
   }
 
-  saveExpense(e) {
-    e.preventDefault();
+  openAddExpenseModal() {
+    if (!this.isUnlocked) {
+      alert('🔒 Harap Login Bendahara untuk mencatat pengeluaran.');
+      return;
+    }
+
+    const titleEl = document.getElementById('expTitleInput') || document.getElementById('expDescription');
+    const amountEl = document.getElementById('expAmountInput') || document.getElementById('expAmount');
+    const dateEl = document.getElementById('expDateInput') || document.getElementById('expDate');
+    const todayStr = new Date().toISOString().split('T')[0];
+
+    if (titleEl) titleEl.value = '';
+    if (amountEl) amountEl.value = '';
+    if (dateEl) dateEl.value = todayStr;
+
+    this.openModal('modalExpense');
+  }
+
+  handleExpenseSubmit(e) {
+    if (e && e.preventDefault) e.preventDefault();
     if (!this.isUnlocked) return;
 
-    const date = document.getElementById('expDate').value;
-    const category = document.getElementById('expCategory').value;
-    const amount = parseFloat(document.getElementById('expAmount').value) || 0;
-    const description = document.getElementById('expDescription').value;
+    const titleEl = document.getElementById('expTitleInput') || document.getElementById('expDescription');
+    const amountEl = document.getElementById('expAmountInput') || document.getElementById('expAmount');
+    const categoryEl = document.getElementById('expCategorySelect') || document.getElementById('expCategory');
+    const dateEl = document.getElementById('expDateInput') || document.getElementById('expDate');
     const fileInput = document.getElementById('expEvidenceFile');
 
-    const newExp = {
-      id: 'exp_' + Date.now(),
-      date,
-      category,
-      amount,
-      description,
-      evidence: ''
-    };
+    const description = titleEl ? titleEl.value.trim() : '';
+    const amount = amountEl ? parseFloat(amountEl.value) || 0 : 0;
+    const category = categoryEl ? categoryEl.value : 'Alat Tulis & Kelengkapan Kelas';
+    const date = dateEl ? dateEl.value : new Date().toISOString().split('T')[0];
+
+    if (!description || amount <= 0) {
+      alert('⚠️ Harap isi keterangan dan nominal pengeluaran dengan benar.');
+      return;
+    }
 
     const processSave = (evidenceData = '') => {
-      newExp.evidence = evidenceData;
-      if (!this.data.expenses) this.data.expenses = [];
-      this.data.expenses.push(newExp);
+      const newExp = {
+        id: 'exp_' + Date.now(),
+        date,
+        category,
+        amount,
+        description,
+        evidence: evidenceData
+      };
 
-      document.getElementById('expenseForm').reset();
+      if (!this.data.expenses) this.data.expenses = [];
+      this.data.expenses.unshift(newExp);
+
+      if (titleEl) titleEl.value = '';
+      if (amountEl) amountEl.value = '';
+      if (fileInput) fileInput.value = '';
+
       this.saveData();
-      alert('✅ Transaksi pengeluaran & foto bukti nota berhasil disimpan!');
+      alert('✅ Transaksi pengeluaran baru berhasil dicatat & disimpan!');
     };
+
 
     if (fileInput && fileInput.files && fileInput.files[0]) {
       const file = fileInput.files[0];
@@ -3263,6 +3539,12 @@ class KasApp {
       processSave('');
     }
   }
+
+
+  saveExpense(e) {
+    this.handleExpenseSubmit(e);
+  }
+
 
   viewEvidence(expId) {
     const exp = (this.data.expenses || []).find(e => e.id === expId);
@@ -3314,9 +3596,45 @@ class KasApp {
     const lunasStudents = this.data.students.filter(s => this.getPayment(s, selectedKey).status);
     const belumStudents = this.data.students.filter(s => !this.getPayment(s, selectedKey).status);
 
-    const cardsDiv = document.getElementById('rekapSummaryCards');
-    if (cardsDiv) {
-      cardsDiv.innerHTML = `
+    const mainContainer = document.getElementById('rekapSummaryContent') || document.getElementById('rekapSummaryCards');
+    if (!mainContainer) return;
+
+    let delinquentHtml = '';
+    if (belumStudents.length === 0) {
+      delinquentHtml = `
+        <div style="text-align: center; padding: 30px; background: #f0fdf4; border-radius: var(--radius-md); color: #166534; margin-top: 20px; border: 1px solid #bbf7d0;">
+          <i class="fa-solid fa-circle-check" style="font-size: 2.5rem; margin-bottom: 8px;"></i>
+          <h3>Luar Biasa! Seluruh Siswa Telah Lunas</h3>
+          <p>Seluruh siswa sudah melunasi kas untuk bulan ${selectedMonthObj.label}!</p>
+        </div>
+      `;
+    } else {
+      delinquentHtml = `
+        <div style="margin-top: 20px;">
+          <h4 style="font-family: var(--font-heading); margin-bottom: 12px; color: #be123c;">
+            <i class="fa-solid fa-clock"></i> Daftar ${belumStudents.length} Siswa Belum Bayar Kas (${selectedMonthObj.label}):
+          </h4>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px;">
+            ${belumStudents.map(st => `
+              <div style="background: #fff5f5; border: 1px solid #fca5a5; padding: 14px 18px; border-radius: 14px; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                  <div style="font-weight: 700; color: #0f172a; font-size: 1rem;">${st.name}</div>
+                  <div style="font-size: 0.825rem; color: #be123c;">
+                    Belum bayar kas: <strong>${selectedMonthObj.label} (${this.formatRp(nominal)})</strong>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-sm" onclick="app.openWAReminder('${st.name}', '${st.phone || ''}', '${selectedMonthObj.label}', ${nominal})">
+                  <i class="fa-brands fa-whatsapp"></i> Ingatkan WA
+                </button>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    mainContainer.innerHTML = `
+      <div class="stats-grid" style="margin-bottom: 20px;">
         <div class="stat-card card-pemasukan">
           <div class="stat-title">Jumlah Siswa Lunas</div>
           <div class="stat-value">${lunasStudents.length} / ${this.data.students.length}</div>
@@ -3326,7 +3644,7 @@ class KasApp {
         <div class="stat-card card-pengeluaran">
           <div class="stat-title">Siswa Belum Bayar</div>
           <div class="stat-value">${belumStudents.length} Siswa</div>
-          <div class="stat-desc">Menunggak bulan ${selectedMonthObj.label}</div>
+          <div class="stat-desc">Belum bayar bulan ${selectedMonthObj.label}</div>
         </div>
 
         <div class="stat-card card-saldo">
@@ -3334,58 +3652,46 @@ class KasApp {
           <div class="stat-value">${this.formatRp(lunasStudents.length * nominal)}</div>
           <div class="stat-desc">Subtotal penerimaan bulan ini</div>
         </div>
-      `;
-    }
+      </div>
 
-    const label = document.getElementById('delinquentMonthLabel');
-    if (label) label.innerText = selectedMonthObj.label;
-
-    const listDiv = document.getElementById('delinquentListContainer');
-    if (listDiv) {
-      if (belumStudents.length === 0) {
-        listDiv.innerHTML = `
-          <div style="text-align: center; padding: 30px; background: #f0fdf4; border-radius: var(--radius-md); color: #166534;">
-            <i class="fa-solid fa-circle-check" style="font-size: 2.5rem; margin-bottom: 8px;"></i>
-            <h3>Luar Biasa! Seluruh Siswa Telah Lunas</h3>
-            <p>Tidak ada tunggakan kas untuk bulan ${selectedMonthObj.label}.</p>
-          </div>
-        `;
-      } else {
-        listDiv.innerHTML = belumStudents.map(st => `
-          <div class="delinquent-card">
-            <div>
-              <div style="font-weight: 700; color: #0f172a; font-size: 1rem;">${st.name}</div>
-              <div style="font-size: 0.85rem; color: #be123c;">
-                <i class="fa-solid fa-clock"></i> Belum bayar kas: <strong>${selectedMonthObj.label} (${this.formatRp(nominal)})</strong>
-              </div>
-            </div>
-            <button class="btn btn-primary btn-sm" onclick="app.openWAReminder('${st.name}', '${st.phone || ''}', '${selectedMonthObj.label}', ${nominal})">
-              <i class="fa-brands fa-whatsapp"></i> Ingatkan WA
-            </button>
-          </div>
-        `).join('');
-      }
-    }
+      ${delinquentHtml}
+    `;
   }
+
+
 
   openWAReminder(studentName, phone, monthLabel, amountDue) {
-    const message = `Assalamu'alaikum / Selamat Pagi Bapak/Ibu Wali Murid dari *${studentName}*,\n\nIzin mengingatkan mengenai pembayaran Kas Kelas 5A SDS Kasih Ananda untuk *${monthLabel}* sebesar *${this.formatRp(amountDue)}*.\n\nPembayaran dapat diserahkan langsung melalui ananda atau ditransfer ke Bendahara Kelas 5A.\n\nTerima kasih atas perhatian dan kerjasamanya! 🙏😊\n\n_Salam hangat,_\n*Bendahara Kelas 5A SDS Kasih Ananda*`;
+    const s = this.data.settings || {};
+    const defaultTemplate = `Assalamu'alaikum / Selamat Pagi Bapak/Ibu Wali Murid dari *{nama_siswa}*,\n\nIzin mengingatkan mengenai pembayaran Kas Kelas 5A {nama_sekolah} untuk bulan *{bulan}* sebesar *{nominal}*.\n\nPembayaran dapat diserahkan langsung melalui ananda atau ditransfer ke Bendahara Kelas 5A.\n\nTerima kasih atas perhatian dan kerjasamanya! 🙏😊\n\n_Salam hangat,_\n*Bendahara Kelas 5A {nama_sekolah}*`;
 
-    document.getElementById('waMessageText').value = message;
+    let template = s.waTemplate || defaultTemplate;
+    const message = template
+      .replace(/\{nama_siswa\}/g, studentName)
+      .replace(/\{bulan\}/g, monthLabel)
+      .replace(/\{nominal\}/g, this.formatRp(amountDue))
+      .replace(/\{nama_sekolah\}/g, s.namaSekolah || 'SDS Kasih Ananda');
+
+    const txtElem = document.getElementById('waMessageText');
+    if (txtElem) txtElem.value = message;
 
     const cleanPhone = phone ? phone.replace(/[^0-9]/g, '') : '';
-    const formattedPhone = cleanPhone.startsWith('0') ? '62' + cleanPhone.slice(1) : cleanPhone;
+    const formattedPhone = cleanPhone.startsWith('0') ? '62' + cleanPhone.slice(1) : (cleanPhone.startsWith('62') ? cleanPhone : (cleanPhone ? '62' + cleanPhone : ''));
+
+    const waUrl = formattedPhone
+      ? `https://wa.me/${formattedPhone}?text=${encodeURIComponent(message)}`
+      : `https://wa.me/?text=${encodeURIComponent(message)}`;
 
     const btn = document.getElementById('btnOpenWhatsApp');
-    btn.onclick = () => {
-      const url = formattedPhone
-        ? `https://wa.me/${formattedPhone}?text=${encodeURIComponent(message)}`
-        : `https://wa.me/?text=${encodeURIComponent(message)}`;
-      window.open(url, '_blank');
-    };
+    if (btn) {
+      btn.onclick = () => {
+        window.open(waUrl, '_blank');
+      };
+    }
 
-    this.openModal('modalWAReminder');
+    window.open(waUrl, '_blank');
   }
+
+
 
   copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
@@ -3396,15 +3702,17 @@ class KasApp {
   // --- TAB 6: LAPORAN CETAK A4 ---
   renderReport() {
     const reportType = document.getElementById('reportTypeSelect')?.value || 'TAHUNAN';
-    const contentArea = document.getElementById('reportContentArea');
+    const contentArea = document.getElementById('reportPaperBody') || document.getElementById('reportContentArea');
     const subheader = document.getElementById('reportSubheaderText');
     if (!contentArea) return;
+
 
     const totals = this.calculateTotals();
     const nominal = this.data.settings.nominalPerBulan || 20000;
 
     if (reportType === 'TAHUNAN') {
-      subheader.innerText = 'Periode Tahun Ajaran 2026–2027 (Juli 2026 – Juni 2027)';
+      if (subheader) subheader.innerText = 'Periode Tahun Ajaran 2026–2027 (Juli 2026 – Juni 2027)';
+
 
       contentArea.innerHTML = `
         <div style="margin-bottom: 20px;">
@@ -3546,7 +3854,47 @@ class KasApp {
   }
 
   // --- EXPORT TO EXCEL ---
-  exportToExcel() {
+  //  // Backup data ke file JSON di perangkat pengguna (Manual atau Auto)
+  backupData(isAuto = false) {
+    try {
+      const now  = new Date();
+      const ts   = now.toISOString().slice(0,10).replace(/-/g,'') + '_' +
+                   now.toTimeString().slice(0,5).replace(':','');
+      const filename = (isAuto ? 'Backup_Kas5A_Auto_' : 'Backup_Kas5A_') + ts + '.json';
+      const json = JSON.stringify(this.data, null, 2);
+      const blob = new Blob([json], { type: 'application/json' });
+      const url  = URL.createObjectURL(blob);
+      const a    = document.createElement('a');
+      a.href = url; a.download = filename;
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a); URL.revokeObjectURL(url);
+      const paid = this.countPaid(this.data);
+      const nom  = (this.data.settings && this.data.settings.nominalPerBulan) ? this.data.settings.nominalPerBulan : 20000;
+      if (!isAuto) {
+        alert('✅ Backup berhasil!\n\nFile: ' + filename + '\nTotal lunas: ' + paid + ' bulan\nTotal: Rp ' + (paid*nom).toLocaleString('id-ID') + '\n\nSimpan file ini di tempat aman ya!');
+      } else {
+        console.log('🛡️ [AutoBackup] Otomatis mengunduh cadangan harian:', filename);
+      }
+    } catch(e) { 
+      if (!isAuto) alert('❌ Backup gagal: ' + e.message); 
+    }
+  }
+
+  // Cek dan unduh backup otomatis setiap hari saat web dibuka
+  checkAutoDailyBackup() {
+    try {
+      const today = new Date().toISOString().slice(0, 10);
+      const lastBackupDate = localStorage.getItem('kas_5a_auto_backup_date');
+      if (lastBackupDate !== today) {
+        this.backupData(true);
+        localStorage.setItem('kas_5a_auto_backup_date', today);
+      }
+    } catch (e) {
+      console.warn('Auto backup check:', e);
+    }
+  }
+
+    exportToExcel() {
     if (typeof XLSX === 'undefined') {
       alert('Library SheetJS belum dimuat. Mohon pastikan koneksi internet aktif.');
       return;
@@ -3798,6 +4146,8 @@ class KasApp {
       return;
     }
 
+    const defaultWaTemplate = `Assalamu'alaikum / Selamat Pagi Bapak/Ibu Wali Murid dari *{nama_siswa}*,\n\nIzin mengingatkan mengenai pembayaran Kas Kelas 5A {nama_sekolah} untuk bulan *{bulan}* sebesar *{nominal}*.\n\nPembayaran dapat diserahkan langsung melalui ananda atau ditransfer ke Bendahara Kelas 5A.\n\nTerima kasih atas perhatian dan kerjasamanya! 🙏😊\n\n_Salam hangat,_\n*Bendahara Kelas 5A {nama_sekolah}*`;
+
     const s = this.data.settings || {};
     if (document.getElementById('setWaliKelas')) document.getElementById('setWaliKelas').value = s.namaWaliKelas || 'Bu Liswati';
     if (document.getElementById('setKoordinator')) document.getElementById('setKoordinator').value = s.namaKoordinator || s.namaBendahara || 'Mom Kim';
@@ -3807,6 +4157,7 @@ class KasApp {
     if (document.getElementById('setJudulPengeluaran')) document.getElementById('setJudulPengeluaran').value = s.judulPengeluaran || 'Total Pengeluaran';
     if (document.getElementById('setDescPengeluaran')) document.getElementById('setDescPengeluaran').value = s.descPengeluaran || 'Keperluan & Kegiatan Kelas 5A';
     if (document.getElementById('setIconLogo')) document.getElementById('setIconLogo').value = s.iconLogo || 'fa-solid fa-school-flag';
+    if (document.getElementById('setWaTemplate')) document.getElementById('setWaTemplate').value = s.waTemplate || defaultWaTemplate;
     if (document.getElementById('setPinBendahara')) document.getElementById('setPinBendahara').value = s.pinBendahara || '5A2026';
 
     this.openModal('modalSettings');
@@ -3823,6 +4174,7 @@ class KasApp {
     const judulPengEl = document.getElementById('setJudulPengeluaran');
     const descPengEl = document.getElementById('setDescPengeluaran');
     const iconLogoEl = document.getElementById('setIconLogo');
+    const waTemplateEl = document.getElementById('setWaTemplate');
     const pinEl = document.getElementById('setPinBendahara');
 
     const wali = waliEl ? waliEl.value.trim() : '';
@@ -3833,6 +4185,7 @@ class KasApp {
     const judulPengeluaran = judulPengEl ? judulPengEl.value.trim() : '';
     const descPengeluaran = descPengEl ? descPengEl.value.trim() : '';
     const iconLogo = iconLogoEl ? iconLogoEl.value.trim() : '';
+    const waTemplate = waTemplateEl ? waTemplateEl.value.trim() : '';
     const pin = pinEl ? pinEl.value.trim() : '';
 
     if (!this.data.settings) this.data.settings = {};
@@ -3845,7 +4198,9 @@ class KasApp {
     this.data.settings.judulPengeluaran = judulPengeluaran || 'Total Pengeluaran';
     this.data.settings.descPengeluaran = descPengeluaran || 'Keperluan & Kegiatan Kelas 5A';
     this.data.settings.iconLogo = iconLogo || 'fa-solid fa-school-flag';
+    this.data.settings.waTemplate = waTemplate;
     this.data.settings.pinBendahara = pin || '5A2026';
+
 
     this.isUnlocked = true;
     sessionStorage.setItem('kas_bendahara_unlocked', 'true');
