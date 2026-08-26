@@ -3965,6 +3965,52 @@ class KasApp {
     XLSX.writeFile(wb, 'Template_Data_Siswa_Dan_Kas_5A.xlsx');
   }
 
+  // --- FITUR PULIHKAN DATA UNIVERSAL (JSON / EXCEL) ---
+  handleUniversalRestore(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+
+    const fileName = file.name.toLowerCase();
+
+    if (fileName.endsWith('.json')) {
+      const reader = new FileReader();
+      reader.onload = (evt) => {
+        try {
+          const parsed = JSON.parse(evt.target.result);
+          if (!parsed.students || !Array.isArray(parsed.students)) {
+            alert('❌ Format file JSON tidak valid (tidak berisi daftar siswa).');
+            return;
+          }
+
+          const count = this.countPaid(parsed);
+          const expCount = (parsed.expenses && Array.isArray(parsed.expenses)) ? parsed.expenses.length : 0;
+          const totalExp = (parsed.expenses && Array.isArray(parsed.expenses)) ? parsed.expenses.reduce((a, b) => a + (Number(b.amount) || 0), 0) : 0;
+          const nom = (parsed.settings && parsed.settings.nominalPerBulan) ? parsed.settings.nominalPerBulan : 20000;
+          const totalInc = count * nom;
+          const saldo = totalInc - totalExp;
+
+          if (confirm(`Apakah Anda yakin ingin memulihkan data dari:\n${file.name}?\n\n• Total Lunas: ${count} transaksi (Rp ${totalInc.toLocaleString('id-ID')})\n• Pengeluaran: Rp ${totalExp.toLocaleString('id-ID')} (${expCount} item)\n• Saldo Akhir: Rp ${saldo.toLocaleString('id-ID')}\n\nKlik OK untuk menerapkan sekarang.`)) {
+            this.data = parsed;
+            this.saveData();
+            this.renderAllViews();
+            alert(`✅ Data Berhasil Dipulihkan!\n\nSaldo saat ini: Rp ${saldo.toLocaleString('id-ID')}`);
+          }
+        } catch (err) {
+          alert('❌ Gagal membaca file JSON: ' + err.message);
+        } finally {
+          e.target.value = '';
+        }
+      };
+      reader.readAsText(file);
+    } else if (fileName.endsWith('.xlsx') || fileName.endsWith('.xls')) {
+      this.handleExcelImport(e);
+    } else {
+      alert('❌ Format file tidak didukung. Harap pilih file .json atau .xlsx');
+      e.target.value = '';
+    }
+  }
+
+
   handleExcelImport(e) {
     if (!this.isUnlocked) {
       alert('🔒 Harap Login Bendahara untuk mengimpor data siswa dari Excel.');

@@ -52,7 +52,12 @@
           <i class="fa-solid fa-file-excel" style="color: #16a34a;"></i> Ekspor Excel
         </button>
 
-        <button onclick="app.backupData()" title="Download backup data — simpan di HP/PC kamu sebagai cadangan!" style="padding:8px 14px;background:linear-gradient(135deg,#16a34a,#15803d);color:#fff;border:none;border-radius:8px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:13px;" id="backupBtn">
+                <button class="btn btn-sm" onclick="document.getElementById('fileRestoreInput').click()" style="background:#0284c7;color:#fff;border:none;border-radius:8px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:13px;padding:8px 14px;" title="Pulihkan Data dari File Backup JSON / Excel">
+          <i class="fa-solid fa-file-import"></i> Pulihkan Data
+        </button>
+        <input type="file" id="fileRestoreInput" accept=".json,.xlsx,.xls" style="display:none;" onchange="app.handleUniversalRestore(event)">
+
+        <button onclick="app.backupData()" title="Download backup data  simpan di HP/PC kamu sebagai cadangan!" style="padding:8px 14px;background:linear-gradient(135deg,#16a34a,#15803d);color:#fff;border:none;border-radius:8px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:13px;" id="backupBtn">
           <i class="fa-solid fa-shield-halved"></i> Backup Data
         </button>
 
