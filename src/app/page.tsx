@@ -18,35 +18,9 @@ import { AddStudentModal } from '../components/AddStudentModal';
 import { AddExpenseModal } from '../components/AddExpenseModal';
 import { BackgroundDoodles } from '../components/BackgroundDoodles';
 import * as XLSX from 'xlsx';
+import initialKasData from '../../data/kas_5a.json';
 
-const DEFAULT_INITIAL_DATA: Kas5AData = {
-  settings: {
-    nominalPerBulan: 20000,
-    tahunAjaran: '2026–2027',
-    namaKelas: 'Kelas 5A',
-    namaSekolah: 'SDS Kasih Ananda 1 Kelapa Gading',
-    namaBendahara: 'Mom Kim',
-    namaWaliKelas: 'Bu Liswati',
-    pinBendahara: '5A2026',
-    namaKoordinator: 'Mom Kim',
-  },
-  months: [
-    { key: 'juli_2026', label: 'Juli 2026' },
-    { key: 'agustus_2026', label: 'Agustus 2026' },
-    { key: 'september_2026', label: 'September 2026' },
-    { key: 'oktober_2026', label: 'Oktober 2026' },
-    { key: 'november_2026', label: 'November 2026' },
-    { key: 'desember_2026', label: 'Desember 2026' },
-    { key: 'januari_2027', label: 'Januari 2027' },
-    { key: 'februari_2027', label: 'Februari 2027' },
-    { key: 'maret_2027', label: 'Maret 2027' },
-    { key: 'april_2027', label: 'April 2027' },
-    { key: 'mei_2027', label: 'Mei 2027' },
-    { key: 'juni_2027', label: 'Juni 2027' },
-  ],
-  students: [],
-  expenses: [],
-};
+const DEFAULT_INITIAL_DATA: Kas5AData = initialKasData as unknown as Kas5AData;
 
 export default function Home() {
   const [kasData, setKasData] = useState<Kas5AData>(DEFAULT_INITIAL_DATA);
