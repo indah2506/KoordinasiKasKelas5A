@@ -272,64 +272,64 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "agustus_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "september_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "oktober_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "november_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "desember_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "januari_2027": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "februari_2027": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "maret_2027": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "april_2027": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "mei_2027": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "juni_2027": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         }
       }
     },
@@ -340,33 +340,33 @@ const INITIAL_DATA = {
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "november_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": false,
@@ -406,29 +406,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "agustus_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "september_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "oktober_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "november_2026": {
-          "status": true,
-          "date": "2026-08-10",
-          "method": "Tunai / Cash"
+          "status": false,
+          "date": "",
+          "method": ""
         },
         "desember_2026": {
           "status": false,
@@ -474,28 +474,28 @@ const INITIAL_DATA = {
       "payments": {
         "juli_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "agustus_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": true,
-          "date": "2026-08-10",
+          "date": "2026-08-05",
           "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -741,29 +741,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -808,29 +808,29 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
           "status": false,
@@ -1076,14 +1076,14 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
           "status": false,
@@ -1947,64 +1947,64 @@ const INITIAL_DATA = {
       "phone": "081216100160",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "februari_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "maret_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "april_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "mei_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "juni_2027": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         }
       }
     },
@@ -2215,34 +2215,34 @@ const INITIAL_DATA = {
       "phone": "",
       "payments": {
         "juli_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "agustus_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "september_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "oktober_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "november_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "desember_2026": {
-          "status": false,
-          "date": "",
-          "method": ""
+          "status": true,
+          "date": "2026-08-05",
+          "method": "Tunai / Cash"
         },
         "januari_2027": {
           "status": false,
@@ -2418,6 +2418,7 @@ const INITIAL_DATA = {
       "category": "Lain-lain",
       "amount": 48735,
       "description": "Tissue 2 Ply A Basics 600gram 2pcs",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
@@ -2426,6 +2427,7 @@ const INITIAL_DATA = {
       "category": "Lain-lain",
       "amount": 58600,
       "description": "Stella Aerosol Balinese Jasmine Sensation Pengharum Ruangan 350ml 2pcs",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
@@ -2434,6 +2436,7 @@ const INITIAL_DATA = {
       "category": "Lain-lain",
       "amount": 44000,
       "description": "Air galon 2 @22000",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
@@ -2442,6 +2445,7 @@ const INITIAL_DATA = {
       "category": "Lain-lain",
       "amount": 35000,
       "description": "Tisue",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
@@ -2450,6 +2454,7 @@ const INITIAL_DATA = {
       "category": "Fotokopi & Cetak Soal",
       "amount": 17500,
       "description": "FC jadwal 35 @500",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
@@ -2458,6 +2463,7 @@ const INITIAL_DATA = {
       "category": "Fotokopi & Cetak Soal",
       "amount": 10000,
       "description": "LKPD MPLS 20 @500",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
@@ -2466,14 +2472,15 @@ const INITIAL_DATA = {
       "category": "Fotokopi & Cetak Soal",
       "amount": 17500,
       "description": "LKPD Wali kelas 35 @500",
+      "recipient": "Toko / Kasir",
       "evidence": ""
     },
     {
       "id": "exp_8",
-      "date": "2026-08-10",
-      "category": "Keperluan Kelas",
+      "date": "2026-08-12",
+      "category": "Lain-lain",
       "amount": 43000,
-      "description": "Keperluan & Kegiatan Kelas 5A",
+      "description": "Jenguk mama Danish",
       "recipient": "Toko / Kasir",
       "evidence": ""
     }

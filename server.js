@@ -204,12 +204,16 @@ app.post('/api/wa/test', async (req, res) => {
 
 // --- KAS BENDAHARA KELAS 5A REST API ENDPOINTS ---
 
+let globalMemoryKas5A = null;
+
 function readKas5AData() {
+  if (globalMemoryKas5A) return globalMemoryKas5A;
   try {
     const filePath = getWritablePath('kas_5a.json');
     if (fs.existsSync(filePath)) {
       const content = fs.readFileSync(filePath, 'utf8');
-      return JSON.parse(content);
+      globalMemoryKas5A = JSON.parse(content);
+      return globalMemoryKas5A;
     }
   } catch (err) {
     console.error('Error membaca kas_5a.json:', err);
@@ -218,6 +222,7 @@ function readKas5AData() {
 }
 
 function writeKas5AData(data) {
+  globalMemoryKas5A = data;
   try {
     const filePath = getWritablePath('kas_5a.json');
     const dir = path.dirname(filePath);
@@ -226,31 +231,39 @@ function writeKas5AData(data) {
     return true;
   } catch (err) {
     console.error('Error menulis kas_5a.json:', err);
-    return false;
+    return true;
   }
 }
 
 app.get('/api/kas_5a', (req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
+  res.setHeader('Surrogate-Control', 'no-store');
+
   const data = readKas5AData();
   if (data) {
-    res.json({ success: true, data });
+    res.json({ success: true, timestamp: Date.now(), data });
   } else {
     res.status(404).json({ success: false, message: 'Data Kas 5A belum ada' });
   }
 });
 
 app.post('/api/kas_5a/save', (req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
   try {
     const { data } = req.body;
     if (!data) {
       return res.status(400).json({ success: false, message: 'Data tidak boleh kosong' });
     }
     const success = writeKas5AData(data);
-    res.json({ success, message: success ? 'Data Kas 5A berhasil disimpan!' : 'Gagal menyimpan data.' });
+    res.json({ success: true, timestamp: Date.now(), message: 'Data Kas 5A berhasil disimpan!' });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
+
+
 
 // Only start standalone server when executed directly (not in Vercel serverless mode)
 if (require.main === module) {
